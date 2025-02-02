@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f8f8f8;
+  .user-info-form {
+    width: 500px;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    .form-heading {
+      text-align: center;
+    }
+    .button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .button-text {
+        background-color: #8a2be2;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        margin-bottom: 2px;
+        cursor: pointer;
+        &:hover {
+          background-color: rgb(124, 115, 133);
+        }
+      }
+    }
+    .user-info-field {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #3f3e3c;
+      background-color: #8a2be2;
+      padding: 0px 34px;
+      background-color: transparent;
+      .user-input-label {
+        margin-bottom: 5px;
+      }
+      .user-info-text {
+        .input-box {
+          width: 300px;
+        }
+      }
+    }
+  }
+}
